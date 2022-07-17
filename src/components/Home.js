@@ -14,11 +14,6 @@ function Home() {
 
 
 
-
-
-
-
-
   return (
     <div >
       <h1 className="startHeader">Hi, <br /> I'm a Front End </h1>
