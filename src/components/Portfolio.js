@@ -22,7 +22,7 @@ function About() {
                     <div className="div12">
                         <div className="itemwrap2">
                             <h3 className="itemH2">Project 1</h3>
-                            <p className="itemText2">Formed with React js and with the complexity of Node js and sql we can have a live chatt app. </p> 
+                            <p className="itemText2">Formed with React js and with the complexity of Node js and sql we can have a live chatt app. </p>
                             <p className="portBtn">Learn more</p >
                         </div>
                     </div>
