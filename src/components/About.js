@@ -12,7 +12,6 @@ function About() {
 
 
 
-    // Make grid about tools you use to build stuff with
 
     return (
         <div className="About">
