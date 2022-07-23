@@ -1,0 +1,281 @@
+.ContactGrid {
+
+    width: 100%;
+    height: 600px;
+    top: 350%;
+    position: absolute;
+
+    display: grid;
+    background: rgb(20, 20, 20);
+
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    column-gap: 0.3rem;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+}
+
+
+
+
+
+.cPic {
+    max-width: 100%;
+    height: 580px;
+    filter: brightness(30%);
+    object-fit: cover;
+    position: relative;
+    left: 3%;
+}
+
+
+
+
+
+
+.input1 {
+    display: block;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 3px solid rgb(255, 255, 255, 0.8);
+    background: rgb(20, 20, 20);
+    color: white;
+
+}
+
+
+.input4 {
+    width: 100%;
+    height: 80px;
+    display: block;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(255, 255, 255, 0.8);
+    background: rgb(20, 20, 20);
+    color: white;
+}
+
+
+
+
+
+
+
+
+label {
+    font-size: 0.8rem;
+}
+
+.label1 {
+    display: block;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+
+}
+
+
+.label4 {
+    display: block;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+
+
+}
+
+
+.div3 {
+    /* border: 3px solid rgba(255, 255, 255, 0.5); */
+    width: 45%;
+    left: 40%;
+    position: absolute;
+    height: 96.5%;
+}
+
+
+
+
+.form1 {
+    width: 100%;
+
+}
+
+.name {
+    /* background-color: rgb(20, 20, 20); */
+    padding: 1.5rem 1rem;
+    color: white;
+    margin-bottom: 0.5rem;
+
+}
+
+.email {
+    padding: 1.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+
+
+}
+
+.phone {
+    padding: 1.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+
+}
+
+.msg {
+    padding: 2rem 1.5rem;
+    padding-bottom: 1rem;
+    color: white;
+    margin-bottom: 0.5rem;
+
+
+}
+
+.subm {
+    color: white;
+    background: rgb(11, 159, 196);
+    padding: 0.3rem 1.7rem;
+    margin-left: 37%;
+    margin-top: 2%;
+    font-family: sans-serif;
+
+}
+
+.subm:hover {
+    color: rgb(11, 159, 196);
+    background: white;
+
+    transition-duration: 0.3s;
+}
+
+
+
+.locationIcon {
+    color: rgb(11, 159, 196);
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+.locIcon {
+    color: rgb(11, 159, 196);
+}
+
+.location {
+    position: absolute;
+    left: 5.3%;
+    top: 34%;
+    color: white;
+
+}
+
+
+.emailIcon {
+    color: rgb(11, 159, 196);
+    position: absolute;
+    left: 5%;
+    top: 43%;
+}
+
+
+.emIcon {
+    position: absolute;
+    left: 5.3%;
+    top: 47%;
+    color: white;
+}
+
+
+
+.phoneIcon {
+    color: rgb(11, 159, 196);
+    position: absolute;
+    left: 5%;
+    top: 57%;
+}
+
+
+.phIcon {
+    position: absolute;
+    left: 5.3%;
+    top: 61%;
+    color: white;
+}
+
+.cIntro{ 
+    position: absolute;
+    top: -23%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.Intro{
+    color: white;
+    font-size: 2.3rem;
+}
+.Intro2{
+    color: white;
+
+}
+
+.introSpan{
+    color: rgb(11, 159, 196);
+}
+
+
+
+@media screen and (max-width: 1380px) {
+
+.ContactGrid{
+    top: 380%;
+    height: 73%;
+}
+
+.grid3{
+    display:flex;
+}
+
+.div3{
+    width: 100%;
+    left: 0%;
+    position: absolute;
+    height: 96.5%;
+}
+
+
+.cPic {
+    width: 100%;
+    height: 580px;
+    filter: brightness(30%);
+    object-fit: cover;
+    position: relative;
+    left: 3%;
+}
+
+.contactInformation{ 
+    display: none;
+}
+.subm {
+    position: relative; 
+
+}
+
+
+.cIntro{
+    top: -27%;
+}
+}
+
+
+    

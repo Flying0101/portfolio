@@ -5,7 +5,7 @@ import '../css/Portfolio.css';
 
 
 
-function About() {
+function Portfolio() {
 
 
 
@@ -56,4 +56,4 @@ function About() {
     );
 }
 
-export default About;
+export default Portfolio;
