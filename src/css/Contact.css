@@ -238,8 +238,8 @@ label {
 @media screen and (max-width: 1380px) {
 
 .ContactGrid{
-    top: 380%;
-    height: 73%;
+    top: 385%;
+    height: 74%;
 }
 
 .grid3{
@@ -268,12 +268,13 @@ label {
 }
 .subm {
     position: relative; 
+    left: -3%;
 
 }
 
 
 .cIntro{
-    top: -27%;
+    top: -28.5%;
 }
 }
 
