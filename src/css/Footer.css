@@ -1,27 +1,108 @@
-.footer{
+.footer {
     margin: 0px;
-    
+
     background: rgb(20, 20, 20);
     color: white;
     display: flex;
-    padding: 0.5rem;
     justify-content: center;
-    position:absolute; 
-    left: 50%; 
-    top: 530%; 
+    position: absolute;
+    left: 50%;
+    top: 460%;
     transform: translate(-50%, -50%);
-    width: 100%; 
-    padding: 4.5rem; 
-    
+    width: 100%;
+    padding: 4.5rem;
+    height: 40%;
+
 
 }
 
-.fContact{
-    position: absolute; 
-    left: 40%; 
-    top: 20%; 
-    font-family: sans-serif; 
+.fotGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 7rem;
 }
-li{
+
+
+.fotDiv {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: -25%;
+}
+
+.fotDiv2 {
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: -25%;
+}
+
+.fotList {
+    position: absolute;
+    top: 70%;
+}
+
+.fotLi {
     list-style-type: none;
+    padding: 5px;
+    width: 130%;
+}
+
+.aboutP {
+    position: absolute;
+    top: 70%;
+    width: 140%;
+}
+
+
+
+
+
+
+
+.fotH {
+    color: rgb(11, 159, 196);
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+.icons {
+    color: rgb(11, 159, 196);
+    width: 15px;
+    height: 15px;
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+    .footer {
+        height: 55%;
+        top: 500%;
+    }
+
+
+
+    .fotGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 5rem;
+        top: 27%;
+        width: 90%;
+    }
+
+    .fotDiv2{
+        left: -20%;
+    }
+
+
+
+
+
+
+
+
 }
