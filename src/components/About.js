@@ -5,7 +5,7 @@ import '../css/About.css';
 
 import JS from '../images/js.png';
 import RT from '../images/react.png';
-
+import AP from '../images/A-background.jpeg';
 
 function About() {
 
@@ -14,13 +14,17 @@ function About() {
 
 
     return (
-        <div className="About">
+        <div className="About"   >
+
             <h4 className="infH">SOFTWARE</h4>
             <h3 className="gridHeader">This Are My Tools</h3>
 
 
 
-            <div className="gridContainer">
+            <div className="gridContainer" style={{
+                backgroundImage: `url(${AP})`, backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+            }}>
                 <div className="grid">
                     <div className="div1">
                         <div className="itemwrap">
