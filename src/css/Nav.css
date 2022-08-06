@@ -6,11 +6,11 @@
 
 body {
     background: #1b1b1b;
-
 }
 
-
-
+html {
+    scroll-behavior: smooth;
+}
 
 .navBar {
     margin: 0px;
@@ -21,9 +21,46 @@ body {
     padding: 0.5rem;
     justify-content: center;
     align-items: center;
-    position: center;
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    top: 0%;
+    z-index: 1;
+}
+
+#logo {
+    color: white;
+    font-size: 1.2rem;
+    z-index: 2;
+    left: 7%;
+    top: 30%;
+    position: absolute;
+    font-family: sans-serif;
+
+    background-image: linear-gradient(rgb(50, 189, 223), #ffffff);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
 
 }
+
+#logoIcon {
+    color: rgb(11, 159, 196);
+    z-index: 2;
+
+}
+
+#logo:hover {
+    color: rgb(11, 159, 196);
+    transition-duration: 0.5s;
+    background-size: 100% 0.1em;
+    cursor: pointer;
+    font-size: 1.3rem;
+
+}
+
 
 a {
     text-decoration: none;
@@ -53,6 +90,7 @@ a:active {
 .links:hover {
     color: rgb(11, 159, 196);
     transition-duration: 0.7s;
+    font-size: 1rem;
 
 }
 
@@ -67,6 +105,7 @@ a:active {
     background: rgb(20, 20, 20);
     border: 0;
     color: white;
+    z-index: 3;
 
 }
 
@@ -82,6 +121,10 @@ a:active {
         display: none;
     }
 
+    .slide-in {
+        display: none;
+    }
+
 
 }
 
@@ -92,6 +135,7 @@ a:active {
 
     .navBar {
         padding: 0.9rem;
+
     }
 
 }
@@ -99,18 +143,108 @@ a:active {
 .navBurger {
     color: white;
     background: rgb(20, 20, 20);
+    position: fixed;
+    top: 5.5%;
+    right: 0;
 
 }
+
+
+
+.slide-in {
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+    color: white;
+    background: rgb(20, 20, 20);
+    position: fixed;
+    top: 5.5%;
+    right: 0;
+    z-index: 1;
+}
+
+.slide-out {
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+    color: white;
+    background: rgb(20, 20, 20);
+    position: fixed;
+    top: 5.5%;
+    right: 0;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes slide-in {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@-webkit-keyframes slide-out {
+    0% {
+        -webkit-transform: translateX(0%);
+    }
+
+    100% {
+        -webkit-transform: translateX(100%);
+    }
+}
+
+
 
 .bLink {
     padding: 0.5rem;
     font-family: sans-serif;
     font-size: 0.9rem;
+    color: white;
+    list-style: none;
 }
 
 .bLink:hover {
 
     color: rgb(11, 159, 196);
-    transition-duration: 0.7s;
+    transition-duration: 0.1s;
+
+}
+
+
+#aboutSection {
+    position: absolute;
+    left: 50%;
+    top: 102%;
+}
+
+#portfolioSection {
+    position: absolute;
+    left: 50%;
+    top: 220%;
+}
+
+#contactSection {
+    position: absolute;
+    top: -43%;
+    left: 50%;
 
 }

@@ -14,10 +14,11 @@ function About() {
 
 
     return (
-        <div className="About"   >
+        <div className="About" >
+            <div id="aboutSection"></div>
 
             <h4 className="infH">SOFTWARE</h4>
-            <h3 className="gridHeader">This Are My Tools</h3>
+            <h3 className="gridHeader" >This Are My Tools</h3>
 
 
 

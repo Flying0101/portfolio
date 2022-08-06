@@ -13,8 +13,9 @@ function Portfolio() {
     //some of this css is in the about.css file due to the grid stylings.
     return (
         <div className="PortFolio">
+            <div id="portfolioSection"></div>
 
-            <h4 className="portH2">PROJECTS</h4>
+            <h4 className="portH2" >PROJECTS</h4>
             <h3 className="portH">This Is My Work</h3>
 
             <div className="gridContainerTwo">

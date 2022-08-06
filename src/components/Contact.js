@@ -17,7 +17,7 @@ function Contact() {
     return (
         <div className="ContactGrid">
 
-
+            <div id="contactSection"></div>
             <div className="cIntro">
                 <h1 className="Intro">Lets' get in <span className="introSpan">touch</span></h1>
                 <p className="Intro2">Have a question, need help, or interested in web development?</p>
@@ -38,7 +38,7 @@ function Contact() {
                     <br />
                     <p className="phIcon">0739883407</p>
 
- 
+
                 </div>
                 <div className="div3">
                     <form className="form1">
@@ -67,7 +67,7 @@ function Contact() {
                 </div>
 
             </div>
- 
+
 
 
 

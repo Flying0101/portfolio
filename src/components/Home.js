@@ -16,6 +16,7 @@ function Home() {
 
   return (
     <div >
+      <div id="homeSection"></div> 
       <h1 className="startHeader">Hi, <br /> I'm a Front End </h1>
 
       <div className="launch">
@@ -29,7 +30,7 @@ function Home() {
 
 
 
-      <button className="viewMore">View More</button>
+<a href="#aboutSection"><button className="viewMore">View More</button></a>
 
 
 
