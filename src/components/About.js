@@ -18,14 +18,12 @@ function About() {
             <div id="aboutSection"></div>
 
             <h4 className="infH">SOFTWARE</h4>
-            <h3 className="gridHeader" >This Are My Tools</h3>
+            <h3 className="gridHeader" >These Are My Tools</h3>
 
 
 
-            <div className="gridContainer" style={{
-                backgroundImage: `url(${AP})`, backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-            }}>
+            <img src={AP} className="picST" />
+            <div className="gridContainer" >
                 <div className="grid">
                     <div className="div1">
                         <div className="itemwrap">

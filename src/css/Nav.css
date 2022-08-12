@@ -26,6 +26,7 @@ html {
     height: 6%;
     top: 0%;
     z-index: 1;
+    border-bottom: 3px solid rgba(50, 188, 223, 0.671);
 }
 
 #logo {
@@ -80,6 +81,14 @@ a:active {
 }
 
 .links {
+    padding: 0.3rem;
+    font-family: sans-serif;
+    color: white;
+    font-size: 0.9rem;
+
+}
+
+.linksTwo {
     padding: 0.3rem;
     font-family: sans-serif;
     color: white;

@@ -1,18 +1,3 @@
-.gridContainerTwo {
-    background-color: rgb(11, 159, 196);
-    border-top: 7px solid rgb(255, 255, 255, 0.2);
-    border-bottom: 7px solid rgb(255, 255, 255, 0.2);
-
-    width: 100%;
-    height: 60%;
-    top: 250%;
-    position: absolute;
-
-    display: grid;
-}
-
-
-
 .portH2 {
     position: absolute;
     left: 50%;
@@ -31,7 +16,7 @@
 .portH {
     position: absolute;
     left: 50%;
-    top: 243%;
+    top: 240%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: sans-serif;
@@ -39,19 +24,41 @@
 
 }
 
+#portfolioSection {
+    top: 210%;
+}
+
+.gridContainerTwo {
+    background-color: rgba(11, 159, 196, 0.442);
+    border-top: 7px solid rgb(255, 255, 255, 0.2);
+    border-bottom: 7px solid rgb(255, 255, 255, 0.2);
+    z-index: -1;
+
+    width: 100%;
+    height: 75%;
+    top: 225%;
+    position: absolute;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
 .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-
     column-gap: 2.5rem;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    height: 50%;
-    width: 45%;
+
+    align-content: center;
+
+
+    height: 35%;
+    width: 53%;
 }
 
 .div12 {
@@ -110,13 +117,21 @@
 
 .portBtn:hover {
     cursor: pointer;
-    background-color: rgb(20, 20, 20);
+    background-color: #5e5e5e;
     transition-duration: 0.3s;
     box-shadow: 0 1px 6px rgb(255, 255, 255);
 
 }
 
+.picS {
+    z-index: -5;
+    object-fit: cover;
+    position: absolute;
 
+    width: 100%;
+    height: 75%;
+    top: 225%;
+}
 
 
 @media screen and (max-width: 1100px) {
@@ -132,13 +147,32 @@
 
     .gridContainerTwo {
 
-        height: 105%;
+        height: 120%;
     }
 
     .portBtn {
         margin-top: 2rem;
     }
 
+    .cIntro {
+        background: rgba(0, 0, 0, 0.927);
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .picS {
+
+        height: 120%;
+    }
+
+
+}
+
+@media screen and (max-width: 415px) {
+
+    .portH {
+        display: none;
+    }
 
 
 

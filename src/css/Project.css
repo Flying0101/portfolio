@@ -1,0 +1,120 @@
+* {
+    border: 2px solid red;
+
+}
+
+
+
+.projectContainer {
+    color: white;
+    background: red;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 23%;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.projectGrid {
+    display: flex;
+
+
+    background: blue;
+    width: 80%;
+
+    align-items: center;
+
+
+
+
+}
+
+
+.part {
+    position: relative;
+
+    background: green;
+    display: block;
+    text-align: center;
+
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 25px;
+
+
+}
+
+
+.partTwo {
+    position: relative;
+
+    background: yellow;
+    text-align: left;
+
+    margin: 0px auto;
+    width: 100%;
+    height: 50%;
+    margin-left: 20px;
+}
+
+.projectPic {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+
+}
+
+ 
+.projectH {
+    position: relative;
+    top: 2%;
+}
+
+.project-name {
+    margin-bottom: 3rem;
+    color: red;
+}
+
+.project-info {
+    color: orange;
+}
+
+@media screen and (max-width: 800px) {
+
+    .projectGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+
+    .projectGrid {
+
+        flex-wrap: wrap;
+        width: 90%;
+
+
+
+
+    }
+
+    .part {
+        margin: 20px 0;
+    }
+
+    .partTwo {
+        margin: 0;
+    }
+
+
+}

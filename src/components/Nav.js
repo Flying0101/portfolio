@@ -4,7 +4,8 @@ import { FaUserAstronaut } from "react-icons/fa";
 
 import '../css/Nav.css';
 
- 
+
+
 
 function Navigation() {
 
@@ -31,7 +32,6 @@ function Navigation() {
                 <button className="menyBtn" id="toggle" onClick={handleToggle}>{navOpen ? "X" : "MENU"}</button>
 
                 <ul className="navBar">
-
 
                     <a href="#homeSection"><li className="links">HOME</li></a>
                     <a href="#aboutSection"><li className="links">ABOUT</li></a>
@@ -60,10 +60,5 @@ function Navigation() {
 
 
 
-// {navOpen ? (
-
-// ) : (
-//     <div></div>
-// )}
 
 export default Navigation;

@@ -1,13 +1,15 @@
 import React from 'react';
 
-import Navigation from './components/Nav'; 
-import Home from './components/Home'; 
-import About from './components/About';
-import Portfolio from './components/Portfolio'; 
-import Contact from './components/Contact'; 
-import Footer from './components/Footer';
+// import Home from './components/Home';
+// import About from './components/About';
+// import Portfolio from './components/Portfolio';
+// import Contact from './components/Contact';
+// import Footer from './components/Footer';
 
+import Projects from './pages/projects';
+import Main from './pages/main';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 
@@ -15,14 +17,17 @@ function App() {
 
 
   return (
-    <div className="App">
-      <Navigation/> 
-      <Home/> 
-      <About/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <Router>
+      <div className="App">
+
+
+        <Routes>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+        </Routes>
+
+      </div>
+    </Router>
   );
 }
 

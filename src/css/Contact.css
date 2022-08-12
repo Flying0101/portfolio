@@ -1,12 +1,16 @@
 .ContactGrid {
-
-    width: 100%;
-    height: 600px;
-    top: 350%;
     position: absolute;
+
+    width: 80%;
+    height: 600px;
+
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%); 
 
     display: grid;
     background: rgb(20, 20, 20);
+    border-radius: 4rem; 
 
 }
 
@@ -51,7 +55,11 @@
     border-bottom: 3px solid rgb(255, 255, 255, 0.8);
     background: rgb(20, 20, 20);
     color: white;
-
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(110, 110, 110);
 }
 
 
@@ -64,9 +72,17 @@
     border-bottom: 3px solid rgb(255, 255, 255, 0.8);
     background: rgb(20, 20, 20);
     color: white;
+    cursor: pointer;
+
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(110, 110, 110);
 }
 
-
+.input1:focus, .input4:focus { 
+    border-bottom-color: rgb(11, 159, 196); 
+}
 
 
 
@@ -95,11 +111,13 @@ label {
 
 
 .div3 {
-    /* border: 3px solid rgba(255, 255, 255, 0.5); */
     width: 45%;
-    left: 40%;
+    left: 50%;
     position: absolute;
     height: 96.5%;
+
+   
+   
 }
 
 
@@ -107,11 +125,9 @@ label {
 
 .form1 {
     width: 100%;
-
 }
 
 .name {
-    /* background-color: rgb(20, 20, 20); */
     padding: 1.5rem 1rem;
     color: white;
     margin-bottom: 0.5rem;
@@ -146,9 +162,16 @@ label {
     color: white;
     background: rgb(11, 159, 196);
     padding: 0.3rem 1.7rem;
-    margin-left: 37%;
-    margin-top: 2%;
     font-family: sans-serif;
+
+    position: absolute;
+
+
+
+    left: 50%;
+    transform: translate(-50%);
+
+
 
 }
 
@@ -187,7 +210,7 @@ label {
     left: 5%;
     top: 43%;
 }
-
+ 
 
 .emIcon {
     position: absolute;
@@ -215,7 +238,7 @@ label {
 
 .cIntro{ 
     position: absolute;
-    top: -23%;
+    top: 337%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -233,17 +256,20 @@ label {
     color: rgb(11, 159, 196);
 }
 
-
+ 
 
 @media screen and (max-width: 1380px) {
 
 .ContactGrid{
-    top: 385%;
-    height: 74%;
+    top: 360%;
+    height: 80%;
+    background: 0;
+    width: 85%;
 }
 
 .grid3{
-    display:flex;
+    display: flex;
+    width: 100%; 
 }
 
 .div3{
@@ -266,16 +292,10 @@ label {
 .contactInformation{ 
     display: none;
 }
-.subm {
-    position: relative; 
-    left: -3%;
-
-}
 
 
-.cIntro{
-    top: -28.5%;
-}
+
+
 }
 
 
