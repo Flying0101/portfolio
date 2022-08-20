@@ -40,7 +40,7 @@ function Contact() {
                         <p className="phoneIcon"> <FaPhone /> +46</p>
                         <br />
                         <p className="phIcon">0739883407</p>
-
+ 
 
                     </div>
                     <div className="div3">
@@ -56,7 +56,7 @@ function Contact() {
                             </div>
                             <div className="phone">
                                 <label className="label1">*</label>
-                                <input placeholder="Phone number here..." className="input1"></input>
+                                <input placeholder="Subject here..." className="input1"></input>
 
                             </div>
                             <div className="msg">

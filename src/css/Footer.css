@@ -22,7 +22,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    column-gap: 7rem;
+    -moz-column-gap: 7rem;
+         column-gap: 7rem;
 }
 
 

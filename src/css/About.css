@@ -50,14 +50,16 @@
     top: 130%;
     position: absolute;
     z-index: -5;
-    object-fit:none;
+    -o-object-fit:none;
+       object-fit:none;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    column-gap: 2.5rem;
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
 
     align-content: center;
     height: 45%;
