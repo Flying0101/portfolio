@@ -21,8 +21,9 @@ function About() {
             <h3 className="gridHeader" >These Are My Tools</h3>
 
 
-
+            <div className="picSE "> 
             <img src={AP} className="picST" />
+            </div>
             <div className="gridContainer" >
                 <div className="grid">
                     <div className="div1">

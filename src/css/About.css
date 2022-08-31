@@ -30,7 +30,6 @@
  
 
 .gridContainer {
-    background-color: rgba(20, 20, 20, 0.421);
     border-top: 3px solid rgb(11, 159, 196);
     border-bottom: 3px solid rgb(255, 255, 255);
 
@@ -43,16 +42,28 @@
     align-items: center;
 
 }
+ 
+.picSE {
+    position: absolute;
+    top: 130%;
+    text-align: center;
+    width: 100%;
+    
+}
+
 
 .picST {
+    position: relative;
+    
     width: 100%;
-    height: 60%;
-    top: 130%;
-    position: absolute;
+    height: 450px;
     z-index: -5;
-    -o-object-fit:none;
-       object-fit:none;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
+
+
+
 
 .grid {
     display: grid;
@@ -140,6 +151,7 @@
     .picST {
         height: 80%;
     }
+
 
 
 
