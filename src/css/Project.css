@@ -22,7 +22,7 @@
 
 
 
-} 
+}
 
 
 .part {
@@ -53,6 +53,26 @@
     margin-left: 20px;
 }
 
+.gIcon {
+    position: relative;
+    left: 5%;
+    top: -10%;
+    width: 30px;
+    height: 30px;
+
+    color: rgba(11, 159, 196);
+}
+
+.gIcon:hover {
+
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+
+    color: rgba(11, 159, 196, 0.705);
+
+}
+
 .projectPic {
     display: block;
     margin: 0px auto;
@@ -62,7 +82,7 @@
     width: 85%;
     height: 85%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 
@@ -80,6 +100,7 @@
     color: white;
     font-size: 4rem;
 }
+
 
 .project-info {
     width: 90%;
@@ -140,7 +161,19 @@
 
     }
 
+    .project-name {
+        text-align: center;
+    }
 
 
 
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .projectContainer{
+        top: 10%;
+    }
 }

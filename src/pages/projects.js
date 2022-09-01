@@ -6,8 +6,7 @@ import { useParams } from 'react-router-dom';
 import { useRecoilValue } from 'recoil';
 import { projectList } from '../stores/projectAtom';
 
-
-
+import { FaGithub } from "react-icons/fa";
 
 import NavTwo from '../components/NavTwo';
 import '../css/Project.css';
@@ -49,6 +48,8 @@ function Projects() {
 
                     <div className="partTwo">
                         <h4 className="project-name">{dataValue.name}</h4>
+                        <a id="over" href={dataValue.link} target="_blank"><FaGithub className="gIcon" /></a>
+
                         <p className="project-info">{dataValue.information}</p>
                     </div>
                 </div>
