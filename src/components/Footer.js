@@ -21,7 +21,7 @@ function Footer() {
           <ul className="fotList">
             <li className="fotLi"><FaMapMarkerAlt className="icons" /> Sweden/Stockholm</li>
             <li className="fotLi"><FaEnvelope className="icons" /> Stephano@live.se</li>
-            <li className="fotLi"><FaPhone className="icons" /> 0734123125</li>
+            <li className="fotLi"><FaPhone className="icons" /> 0739883407 </li>
 
           </ul>
 
