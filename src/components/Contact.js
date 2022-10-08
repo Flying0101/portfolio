@@ -40,7 +40,7 @@ function Contact() {
                         <p className="phoneIcon"> <FaPhone /> +46</p>
                         <br />
                         <p className="phIcon">0739883407</p>
- 
+
 
                     </div>
                     <div className="div3">
@@ -64,7 +64,7 @@ function Contact() {
                                 <textarea id="message" placeholder="Your message..." className="input4"></textarea>
 
                             </div>
-                            <button className="subm">SUBMIT</button>
+                            <button className="subm" onClick={(e) => e.preventDefault()}>SUBMIT</button>
 
                         </form>
                     </div>

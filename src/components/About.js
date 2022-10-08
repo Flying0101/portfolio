@@ -7,7 +7,6 @@ import TypeWriter from 'typewriter-effect';
 
 import '../css/About.css';
 
-import JS from '../images/graph.png';
 import AP from '../images/js-react.png';
 
 function About() {
@@ -71,7 +70,7 @@ function About() {
                         <div className="content-grid">
 
                             <div className="content">
-                                <p>- Frontend development, <br /> app development</p>
+                                <p>- Frontend development</p>
                             </div>
 
                             <div className="content">
@@ -83,7 +82,7 @@ function About() {
                             </div>
 
                             <div className="content">
-                                <p>- HTML, CSS, Pixlr <br /> </p>
+                                <p>- HTML, CSS <br /> </p>
                             </div>
 
                         </div>

@@ -23,7 +23,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     -moz-column-gap: 7rem;
-         column-gap: 7rem;
+    column-gap: 7rem;
 }
 
 

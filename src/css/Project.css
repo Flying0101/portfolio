@@ -81,10 +81,14 @@
     transform: translateY(-50%);
     width: 85%;
     height: 85%;
-    -o-object-fit: cover;
-    object-fit: cover;
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
+.projectPic:hover {
+    border-left: 3px solid rgba(11, 159, 196);
+    cursor: pointer;
+}
 
 .projectH {
     position: absolute;
@@ -173,7 +177,7 @@
 
 
 @media screen and (max-width: 500px) {
-    .projectContainer{
+    .projectContainer {
         top: 10%;
     }
 }

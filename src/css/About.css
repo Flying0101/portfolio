@@ -93,6 +93,7 @@
 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    -moz-column-gap: 2.5rem;
     column-gap: 2.5rem;
     row-gap: 1.7rem;
 
@@ -118,6 +119,8 @@
 
     color: rgba(11, 159, 196);
 
+    -webkit-animation: myanimation 5s infinite;
+
     animation: myanimation 5s infinite;
 }
 
@@ -131,6 +134,8 @@
     height: 40px;
 
     color: rgba(11, 159, 196);
+
+    -webkit-animation: myanimation 3s infinite;
 
     animation: myanimation 3s infinite;
 }
@@ -149,6 +154,29 @@
     height: 45px;
     transition-duration: 0.2s;
     cursor: pointer;
+}
+
+
+@-webkit-keyframes myanimation {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+
+    25% {
+        color: rgb(165, 213, 224);
+    }
+
+    50% {
+        color: rgb(114, 186, 204);
+    }
+
+    75% {
+        color: rgb(104, 200, 224);
+    }
+
+    100% {
+        color: rgba(11, 159, 196);
+    }
 }
 
 
@@ -248,10 +276,10 @@
     transform: translate(-50%);
 }
 
-#over{ 
-    
+#over {
+
     text-decoration: none;
-    background: none; 
+    background: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -306,6 +334,7 @@
 
     .content-grid {
         row-gap: 1rem;
+        -moz-column-gap: 2rem;
         column-gap: 2rem;
     }
 

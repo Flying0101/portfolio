@@ -40,7 +40,7 @@ function Portfolio() {
                         <div className="div12">
                             <div className="itemwrap2">
                                 <h3 className="itemH2">Project 2</h3>
-                                <p className="itemText2">The front end and interactiveness of this web application was done with React js, try it out.</p>
+                                <p className="itemText2">The front end and interactiveness of this simple application was done with React js, try it out.</p>
                                 <Link style={navStyle} to='/projects/2'>
 
                                     <p className="portBtn">Learn more</p>
@@ -50,7 +50,8 @@ function Portfolio() {
                         <div className="div12">
                             <div className="itemwrap2">
                                 <h3 className="itemH2">Project 3</h3>
-                                <p className="itemText2">With challenge in mind, this app was build due to interest in the stock market, this is done, with React js</p>
+                                <p className="itemText2">
+                                    Unfortunately this project is under construction, check out my other projects meanwhile.</p>
 
                                 <Link style={navStyle} to='/projects/3'>
 

@@ -22,9 +22,12 @@ function Home() {
       <div className="launch">
         <TypeWriter
           options={{
-            strings: ['Developer', 'App Developer'],
+            strings: ['Developer'],
             autoStart: true,
             loop: true,
+            delay: 50,
+            pauseFor: 15000,
+            cursor: '/>', 
           }}
         /></div>
 
