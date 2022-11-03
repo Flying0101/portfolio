@@ -51,7 +51,7 @@ function Portfolio() {
                             <div className="itemwrap2">
                                 <h3 className="itemH2">Project 3</h3>
                                 <p className="itemText2">
-                                    Unfortunately this project is under construction, check out my other projects meanwhile.</p>
+                                    Build with React Js / Recoil, goal is to build a fully functioning ecom site with plenty of functions, PROJECT IS STILL IN PROCESS.</p>
 
                                 <Link style={navStyle} to='/projects/3'>
 

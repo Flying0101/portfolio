@@ -78,7 +78,7 @@
     margin: 0px auto;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(0, -50%);
     width: 85%;
     height: 85%;
     -o-object-fit: contain;

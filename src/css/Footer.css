@@ -4,47 +4,28 @@
     background: rgb(20, 20, 20);
     color: white;
     display: flex;
-    justify-content: center;
     padding: 4.5rem;
-    position: relative;
-
-
 
     position: absolute;
-    top: 450%;
+    top: 360%;
     width: 100%;
     height: 250px;
 }
 
 
 
-.fotGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    -moz-column-gap: 7rem;
-    column-gap: 7rem;
-}
-
 
 .fotDiv {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    position: relative;
-    top: -25%;
+    position: absolute;
+    left: 15px;
+    top: 20%;
 }
 
-.fotDiv2 {
-    align-items: center;
-    display: flex;
-    position: relative;
-    top: -25%;
-}
 
 .fotList {
     position: absolute;
     top: 70%;
+    left: -5px;
 }
 
 .fotLi {
@@ -53,15 +34,12 @@
     width: 130%;
 }
 
-.aboutP {
+
+.port-fot-inf{
     position: absolute;
-    top: 70%;
-    width: 140%;
+    left: 10px;
+    bottom: 10px;
 }
-
-
-
-
 
 
 
@@ -69,6 +47,7 @@
     color: rgb(11, 159, 196);
     font-family: sans-serif;
     font-size: 1.3rem;
+    padding-bottom: 25px;
 }
 
 .icons {
@@ -77,13 +56,15 @@
     height: 15px;
 }
 
+.fot-linkpoint{
+position: absolute;
+left: 50%;
+top: -30%;
+}
+
 
 
 @media screen and (max-width: 550px) {
-
-    .footer {
-        display: none;
-    }
 
 
 

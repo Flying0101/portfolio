@@ -25,7 +25,7 @@ function About() {
             <div id="aboutSection"></div>
 
             <h4 className="infH">SOFTWARE</h4>
-            <h3 className={(!show ? 'gridHeader' : 'hidden')}>These Are My Tools</h3>
+            <h3 className={(!show ? 'gridHeader' : 'hidden')}>Tech Stack / Interests</h3>
             <h3 className={(!show ? 'hidden' : 'gridHeader')}>
                 <TypeWriter
                     options={{
@@ -70,19 +70,35 @@ function About() {
                         <div className="content-grid">
 
                             <div className="content">
-                                <p>- Frontend development</p>
+                                <div>
+                                    <p>- JavaScript </p>
+                                    <p>- HTML/CSS </p>
+
+                                </div>
                             </div>
 
                             <div className="content">
-                                <p>- JavaScript, ReactJs, <br /> NodeJs.</p>
+                                <div>
+                                    <p>- ReactJs</p>
+                                    <p>- NextJs</p>
+                                    <p>- NodeJs</p>
+                                </div>
                             </div>
 
                             <div className="content">
-                                <p>- Git, Copywriting<br /> Google analytics.</p>
+                                <div>
+                                    <p>- Git </p>
+                                    <p>- MongoDB</p>
+                                </div>
                             </div>
 
                             <div className="content">
-                                <p>- HTML, CSS <br /> </p>
+                                <div>
+                                    <p>- Socket.io</p>
+                                    <p>- Express</p>
+                                    <p>- SQLite</p>
+
+                                </div>
                             </div>
 
                         </div>
@@ -93,27 +109,34 @@ function About() {
 
                     <div className="grid-div">
 
-                        <p className="about-content-header">Tools / years</p>
+                        <p className="about-content-header">Interests</p>
 
 
 
                         <div className="content-grid">
 
                             <div className="content">
-                                <p>- JavaScript/+1 <br /> - React/+1</p>
+                                <div>
+                                    <p>- Copywriting</p>
+                                </div>
+                            </div>
+                            <div className="content">
+                                <div>
+                                    <p>- Ecommerce</p>
+                                </div>
+                            </div>
+                            <div className="content">
+                                <div>
+                                    <p>- Marketing</p>
+                                </div>
+                            </div>
+                            <div className="content">
+                                <div>
+                                    <p>- Fullstack tech</p>
+
+                                </div>
                             </div>
 
-                            <div className="content">
-                                <p>- HTML/+1 <br /> - CSS/+1</p>
-                            </div>
-
-                            <div className="content">
-                                <p>- Vue/~1 <br /> - TypeScript/~1</p>
-                            </div>
-
-                            <div className="content">
-                                <p>- Node.js/~1 <br /> - Google Analytics/~1</p>
-                            </div>
 
                         </div>
                     </div>

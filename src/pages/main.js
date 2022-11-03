@@ -17,7 +17,6 @@ function Main() {
             <Home />
             <About />
             <Portfolio />
-            <Contact />
             <Footer />
         </div>
 

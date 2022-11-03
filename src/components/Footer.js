@@ -14,27 +14,19 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <div className="fotGrid">
-        <div className="fotDiv">
-          <h3 className="fotH">Get in touch</h3>
+      <div className="fot-linkpoint" id="contactSection"></div>
+      <div className="fotDiv">
+        <h3 className="fotH">Get in touch</h3>
 
-          <ul className="fotList">
-            <li className="fotLi"><FaMapMarkerAlt className="icons" /> Sweden/Stockholm</li>
-            <li className="fotLi"><FaEnvelope className="icons" /> Stephano@live.se</li>
-            <li className="fotLi"><FaPhone className="icons" /> 0739883407 </li>
+        <ul className="fotList">
+          <li className="fotLi"><FaMapMarkerAlt className="icons" /> Sweden/Stockholm</li>
+          <li className="fotLi"><FaEnvelope className="icons" /> Stephano@live.se</li>
+          <li className="fotLi"><FaPhone className="icons" /> 0739883407 </li>
 
-          </ul>
+        </ul>
 
-        </div>
-
-
-        <div className="fotDiv2">
-          <h3 className="fotH">About</h3>
-          <p className="aboutP">A focused developer always looking to strive and evovle with the team, aiming for new heights with each projects.</p>
-
-
-        </div>
       </div>
+      <p className="port-fot-inf">portfolio still in process..</p>
     </footer>
   );
 }

@@ -1,16 +1,17 @@
 .gridHeader {
     position: absolute;
     left: 50%;
-    top: 124%;
-    transform: translate(-50%, -50%);
+    top: 122%;
+    transform: translate(-50%);
     color: white;
     font-family: sans-serif;
     font-size: 1.5rem;
+    width: 90%;
+    text-align: center;
 
     transition-duration: 0.7s;
 
 }
-
 
 .infH {
     position: absolute;
