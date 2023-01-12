@@ -9,7 +9,6 @@ import '../css/About.css';
 
 import AP from '../images/js-react.png';
 
-import MTB from '../images/mtb.jpg';
 import MTB2 from '../images/mtb2.jpg';
 
 
@@ -60,9 +59,9 @@ function About() {
                 <div className="about-Grid">
                     <div className="grid-div">
 
-                        <a id="over" href="https://www.linkedin.com/in/stephano-melo-333316177" target="_blank"><FaLinkedin className="linkd-icon" /></a>
+                        <a id="over" href="https://www.linkedin.com/in/stephano-melo-333316177" target="_blank" rel="noreferrer"><FaLinkedin className="linkd-icon" /></a>
 
-                        <a id="over" href="https://github.com/Flying0101" target="_blank"><FaGithub className="git-icon" /></a>
+                        <a id="over" href="https://github.com/Flying0101" target="_blank" rel="noreferrer"><FaGithub className="git-icon" /></a>
 
                         <p className="about-text">I am a creative frontend developer,  always up for new challenges, from Sweden,<br /> based in Stockholm.</p> <p className="about-text2">Before my coding journey i was into downhill racing and building tracks but after breaking bones and having too many injuries i decided to hang my bike up and give coding a change while i worked in sales, and now im here!</p>
                     </div>
