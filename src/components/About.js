@@ -9,6 +9,10 @@ import '../css/About.css';
 
 import AP from '../images/js-react.png';
 
+import MTB from '../images/mtb.jpg';
+import MTB2 from '../images/mtb2.jpg';
+
+
 function About() {
 
     const [show, setShow] = useState(false);
@@ -21,7 +25,7 @@ function About() {
 
 
     return (
-        <div className="About" >
+        <section className="about-section" >
             <div id="aboutSection"></div>
 
             <h4 className="infH">SOFTWARE</h4>
@@ -46,7 +50,7 @@ function About() {
 
 
                 <div className="picSE ">
-                    <img src={AP} className="picST" />
+                    <img alt="javascript logo" src={AP} className="picST" />
                 </div>
 
                 <button onClick={(activate)} className="expBtn">EXPLORE MORE</button>
@@ -60,11 +64,19 @@ function About() {
 
                         <a id="over" href="https://github.com/Flying0101" target="_blank"><FaGithub className="git-icon" /></a>
 
-                        <p className="about-text">I am a creative frontend developer,  always up for new challenges, from Sweden,<br /> based in Stockholm</p>
+                        <p className="about-text">I am a creative frontend developer,  always up for new challenges, from Sweden,<br /> based in Stockholm.</p> <p className="about-text2">Before my coding journey i was into downhill racing and building tracks but after breaking bones and having too many injuries i decided to hang my bike up and give coding a change while i worked in sales, and now im here!</p>
                     </div>
 
                     <div className="grid-div">
-                        <p className="about-content-header">Main Skills</p>
+
+
+                        <img alt="downhill bike" src={MTB2} className="about-pic" />
+
+
+                    </div>
+
+                    <div className="grid-div">
+                        <p className="about-content-header">Main Skills / worked with</p>
 
 
                         <div className="content-grid">
@@ -78,17 +90,18 @@ function About() {
                             </div>
 
                             <div className="content">
+
                                 <div>
-                                    <p>- ReactJs</p>
-                                    <p>- NextJs</p>
+                                    <p>- Typescript</p>
                                     <p>- NodeJs</p>
+                                    <p>- Jest Testing</p>
                                 </div>
                             </div>
 
                             <div className="content">
                                 <div>
                                     <p>- Git </p>
-                                    <p>- MongoDB</p>
+                                    <p>- ReactJs</p>
                                 </div>
                             </div>
 
@@ -104,11 +117,9 @@ function About() {
                         </div>
 
 
-
                     </div>
 
                     <div className="grid-div">
-
                         <p className="about-content-header">Interests</p>
 
 
@@ -122,12 +133,12 @@ function About() {
                             </div>
                             <div className="content">
                                 <div>
-                                    <p>- Ecommerce</p>
+                                    <p>- Powerlifting</p>
                                 </div>
                             </div>
                             <div className="content">
                                 <div>
-                                    <p>- Marketing</p>
+                                    <p>- React Js</p>
                                 </div>
                             </div>
                             <div className="content">
@@ -139,10 +150,6 @@ function About() {
 
 
                         </div>
-                    </div>
-
-                    <div className="grid-div">
-
                     </div>
 
 
@@ -162,7 +169,7 @@ function About() {
 
 
 
-        </div >
+        </section >
     );
 }
 

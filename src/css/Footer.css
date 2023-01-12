@@ -1,44 +1,35 @@
 .footer {
-    margin: 0px;
+    margin-top: 100px;
 
     background: rgb(20, 20, 20);
     color: white;
     display: flex;
-    padding: 4.5rem;
+    padding: 2.5em 0;
 
-    position: absolute;
-    top: 360%;
     width: 100%;
-    height: 250px;
 }
-
 
 
 
 .fotDiv {
-    position: absolute;
-    left: 15px;
-    top: 20%;
+    margin: 0 auto;
 }
 
 
 .fotList {
-    position: absolute;
-    top: 70%;
-    left: -5px;
+    display: flex;
 }
 
 .fotLi {
     list-style-type: none;
     padding: 5px;
-    width: 130%;
 }
 
 
 .port-fot-inf{
-    position: absolute;
-    left: 10px;
-    bottom: 10px;
+    margin-top: 40px;
+    top: 0;
+    color: white;
 }
 
 
@@ -56,35 +47,15 @@
     height: 15px;
 }
 
-.fot-linkpoint{
-position: absolute;
-left: 50%;
-top: -30%;
-}
+
+@media screen and (max-width: 400px) {
 
 
 
-@media screen and (max-width: 550px) {
-
-
-
-    .fotGrid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        row-gap: 5rem;
-        top: 27%;
-        width: 90%;
+    .fotList {
+        display: block;
     }
-
-    .fotDiv2 {
-        left: -20%;
-    }
-
-
-
-
-
+    
 
 
 

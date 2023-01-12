@@ -1,8 +1,17 @@
+.portfolio-section {
+    width: 100%;
+    padding: 8em 0;
+}
+
+
+
+#port-animation {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+
 .portH2 {
-    position: absolute;
-    left: 50%;
-    top: 232%;
-    transform: translate(-50%, -50%);
     color: rgb(11, 159, 196);
     font-family: sans-serif;
     background-color: rgb(255, 255, 255);
@@ -11,12 +20,12 @@
     width: 180px;
     display: flex;
     justify-content: center;
+    margin: 25px auto;
+
 }
 
 .portH {
-    position: absolute;
     left: 50%;
-    top: 240%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: sans-serif;
@@ -24,20 +33,13 @@
 
 }
 
-#portfolioSection {
-    top: 210%;
-}
 
 .gridContainerTwo {
-    background-color: rgba(11, 159, 196, 0.442);
-    border-top: 7px solid rgb(255, 255, 255, 0.2);
-    border-bottom: 7px solid rgb(255, 255, 255, 0.2);
     z-index: -1;
 
-    width: 100%;
+    width: max(300px, 95%);
     height: 75%;
-    top: 225%;
-    position: absolute;
+    margin: 0 auto;
 
     display: flex;
 
@@ -46,7 +48,6 @@
 
 
 }
-
 
 .grid2 {
     display: grid;
@@ -54,26 +55,26 @@
     grid-template-rows: 1fr;
     -moz-column-gap: 2.5rem;
     column-gap: 2.5rem;
+    row-gap: 20px;
 
     align-content: center;
 
 
     height: 35%;
-    width: 53%;
+    width: max(300px, 750px);
 }
 
 .div12 {
-    align-items: center;
-    justify-content: center;
-    display: flex;
     position: relative;
     border: 3px solid rgba(255, 255, 255, 0.689);
-    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 0.5px 3px rgb(255, 255, 255);
     width: 100%;
-    height: 100%;
+    min-height: 250px;
+    padding: 10px 10px 0 10px;
+    background-color: rgba(0, 0, 0, 0.35);
 }
+
 .div12:hover {
     box-shadow: 0 2px 12px rgb(255, 255, 255);
     transition-duration: 0.2s;
@@ -83,7 +84,7 @@
 .itemH2 {
     position: relative;
     padding: 1rem 0rem;
-    color: white;
+    color: rgb(11, 159, 196);
     font-family: sans-serif;
     top: 0%;
 
@@ -93,91 +94,55 @@
     color: white;
     font-family: sans-serif;
     position: relative;
+    margin-bottom: 40px;
 }
-
-
 
 .itemwrap2 {
     position: relative;
-    height: 100%;
     width: 100%;
+
 }
 
 .portBtn {
 
-    background-color: white;
+    background-color: rgb(11, 159, 196);
     border-color: white;
-    color: rgb(11, 159, 196);
+    color: white;
 
     padding: 0.3rem 0.4rem;
     border-radius: 10px;
-
-    position: relative;
-    margin-top: 4.3rem;
-    float: right;
-
+    font-size: 1rem;
+    position: absolute;
+    display: flex;
+    width: fit-content;
+    text-decoration: none;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .portBtn:hover {
     cursor: pointer;
-    background-color: #5e5e5e;
     transition-duration: 0.3s;
     box-shadow: 0 1px 6px rgb(255, 255, 255);
 
 }
 
-.picS {
-    z-index: -5;
-    -o-object-fit: cover;
-    object-fit: cover;
-    position: absolute;
-
-    width: 100%;
-    height: 75%;
-    top: 225%;
-}
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 700px) {
 
     .grid2 {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         row-gap: 1.5rem;
-        top: 32%;
-        width: 90%;
     }
 
-    .gridContainerTwo {
+    .div12 {
+        width: max(290px, 65%);
+        margin: 0 auto;
 
-        height: 120%;
     }
-
-    .portBtn {
-        margin-top: 2rem;
-    }
-
-    .cIntro {
-        background: rgba(0, 0, 0, 0.927);
-        padding: 2rem;
-        width: 100%;
-    }
-
-    .picS {
-
-        height: 120%;
-    }
-
-
-}
-
-@media screen and (max-width: 415px) {
-
-    .portH {
-        display: none;
-    }
-
-
 
 }

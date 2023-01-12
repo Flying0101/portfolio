@@ -13,6 +13,7 @@ import { FaGithub } from "react-icons/fa";
 import NavTwo from '../components/NavTwo';
 import '../css/Project.css';
 
+import Footer from '../components/Footer';
 
 
 function Projects() {
@@ -28,35 +29,47 @@ function Projects() {
 
 
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
+
 
 
     return (
 
 
-        <div className="Project">
+        <section className="Project">
             <NavTwo />
-            <div className="space"><p className="project-end">console.user( 'This is the end of this page' )...</p></div>
             <div className="projectContainer">
+
                 <div className="projectGrid">
                     <div className="part">
+
                         <h3 className="projectH">{dataValue.nr}</h3>
-                        <a id="over" target="_blank" href={dataValue.netapp}>
-                            <img src={dataValue.img} className="projectPic" />
-                        </a>
+                        <div className="pro-img-con">
+                            <a id="over" target="_blank" href={dataValue.netapp}>
+                                <img src={dataValue.img} className="projectPic" />
+                            </a>
+                        </div>
+
                     </div>
+
 
                     <div className="partTwo">
                         <h4 className="project-name">{dataValue.name}</h4>
-                        <a id="over" href={dataValue.link} target="_blank"><FaGithub className="gIcon" /></a>
+                        <a id="over" href={dataValue.link} target="_blank"><FaGithub className="gIcon" /> </a>
                         <p className="project-info">{dataValue.information}</p>
                         <br />
+
                     </div>
+
                 </div>
+
             </div>
 
-
-        </div>
-
+            <Footer />
+        </section>
 
     );
 }

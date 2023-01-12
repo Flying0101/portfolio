@@ -27,7 +27,7 @@ function Contact() {
 
                 <div className="grid3">
                     <div className="contactInformation">
-                        <img src={FP} className="cPic" />
+                        <img alt="office" src={FP} className="cPic" />
 
                         <p className="locationIcon"> <FaMapMarkerAlt className="locIcon" /> LOCATION</p>
                         <br />

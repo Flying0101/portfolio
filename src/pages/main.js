@@ -18,6 +18,8 @@ function Main() {
             <About />
             <Portfolio />
             <Footer />
+
+
         </div>
 
     );

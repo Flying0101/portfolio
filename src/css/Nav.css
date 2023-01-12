@@ -1,6 +1,6 @@
 * {
-    Margin: 0;
-    Padding: 0;
+    margin: 0;
+    padding: 0;
     Box-sizing: border-box;
 }
 
@@ -63,7 +63,7 @@ html {
 }
 
 
-a {
+#n-l {
     text-decoration: none;
     background-image: linear-gradient(rgb(11, 159, 196), #ffffff);
     background-size: 0% 0.1em;
@@ -74,9 +74,9 @@ a {
 
 }
 
-a:hover,
-a:focus,
-a:active {
+#n-l:hover,
+#n-l:focus,
+#n-l:active {
     background-size: 100% 0.1em;
 }
 
@@ -103,7 +103,9 @@ a:active {
 
 }
 
-
+#home-animation{ 
+    height: 150px;
+}
 
 .menyBtn {
 
