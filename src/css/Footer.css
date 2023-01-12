@@ -23,13 +23,16 @@
 .fotLi {
     list-style-type: none;
     padding: 5px;
+    color: rgba(255, 255, 255, 0.6);
+
 }
 
 
 .port-fot-inf{
     margin-top: 40px;
     top: 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
+
 }
 
 

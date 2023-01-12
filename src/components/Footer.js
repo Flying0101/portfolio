@@ -16,7 +16,7 @@ function Footer() {
     <footer className="footer">
 
       <div className="fotDiv">
-        <h3 className="fotH" >Get in touch</h3>
+        <h3 className="fotH" >contact info</h3>
 
         <ul className="fotList">
           <li className="fotLi"><FaMapMarkerAlt className="icons" /> Sweden/Stockholm</li>
