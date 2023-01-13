@@ -57,8 +57,8 @@ function Projects() {
 
 
                     <div className="partTwo">
-                        <h4 className="project-name">{dataValue.name}</h4>
-                        <a id="over" href={dataValue.link} target="_blank" rel="noreferrer"><FaGithub className="gIcon" /> </a>
+                        <h4 className="project-name">{dataValue.name} <a id="over" href={dataValue.link} target="_blank" rel="noreferrer"><FaGithub className="gIcon" /> </a></h4>
+
                         <p className="project-info">{dataValue.information}</p>
                         <br />
 
