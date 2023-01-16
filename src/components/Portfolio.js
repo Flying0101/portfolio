@@ -7,10 +7,19 @@ import Lottie from "lottie-react";
 
 import webbapp from '../lotties/webb-builder.json';
 
+
+import taskpic from '../images/todo.png';
+import chattpic from '../images/chattapp.png';
+
+
+import T3video from '../videos/watch-intro.mp4'
+
 function Portfolio() {
 
     const navStyle = {
-        color: 'white'
+        color: 'white',
+        textDecoration: 'none'
+
     };
 
 
@@ -31,41 +40,30 @@ function Portfolio() {
 
 
                     <div className="grid2">
-
-
-
-
-                        <div className="div12">
-                            <div className="itemwrap2">
-                                <h3 className="itemH2">Chatt app</h3>
-                                <p className="itemText2">Formed with React js and with the complexity of Node js and sql we can have a live chatt app. </p>
-
-                            </div>
-                            <Link style={navStyle} to='/projects/1'>
-
-                                <p className="portBtn">Learn more</p>
-                            </Link>
-                        </div>
-                        <div className="div12">
-                            <div className="itemwrap2">
-                                <h3 className="itemH2">Task List</h3>
-                                <p className="itemText2">The front end and interactiveness of this simple application was done with React js, try it out.</p>
-
-                            </div>
+                        <div className="div1">
+                            <img alt="watch" className="project-pic" src={taskpic} />
                             <Link style={navStyle} to='/projects/2'>
+                                <p className="p-pic-inf"> - Task app</p>
 
-                                <p className="portBtn">Learn more</p>
                             </Link>
-                        </div>
-                        <div className="div12">
-                            <div className="itemwrap2">
-                                <h3 className="itemH2">Watch store</h3>
-                                <p className="itemText2">
-                                    Build with React Js / Recoil, goal is to build a fully functioning ecom site with plenty of functions, PROJECT IS STILL IN PROCESS.</p>
-                            </div>
-                            <Link style={navStyle} to='/projects/3'>
 
-                                <p className="portBtn">Learn more</p>
+
+                        </div>
+                        <div className="div2">
+                            <img alt="watch" className="project-pic" src={chattpic} />
+                            <Link style={navStyle} to='/projects/1'>
+                                <p className="p-pic-inf">- Chatt app</p>
+
+                            </Link>
+
+                        </div>
+                        <div className="div3">
+                            <video autoPlay playsInline loop muted id="home-video" >
+                                <source src={T3video} type='video/mp4' />
+                            </video>
+                            <Link style={navStyle} to='/projects/3'>
+                                <p className="p-pic-inf"> - Watch store, T3</p>
+
                             </Link>
                         </div>
 
