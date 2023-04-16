@@ -7,15 +7,15 @@ import AP from '../images/js-react.png';
 
 import REACT from '../images/React-icon.svg.png';
 import JAVASCRIPT from '../images/JS-icon.png';
-import HTML from '../images/html-icon.png'; 
-import CSS from '../images/css-icon.png'; 
-import GIT from '../images/git-icon.png'; 
-import TS from '../images/ts-icon.png'; 
-import NEXT from '../images/nextjs.png'; 
-import NODEJS from '../images/nodejs-icon.png'; 
-import JEST from '../images/jest-icon.png'; 
-import JIRA from '../images/jira-icon.png'; 
-import GITHUB from '../images/github-icon.png'; 
+import HTML from '../images/html-icon.png';
+import CSS from '../images/css-icon.png';
+import GIT from '../images/git-icon.png';
+import TS from '../images/ts-icon.png';
+import NEXT from '../images/nextjs.png';
+import NODEJS from '../images/nodejs-icon.png';
+import JEST from '../images/jest-icon.png';
+import JIRA from '../images/jira-icon.png';
+import GITHUB from '../images/github-icon.png';
 
 function About() {
 
@@ -68,40 +68,40 @@ function About() {
 
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={REACT} />
+                                <img className="g-c-img" alt="react icon" src={REACT} />
                                 <p className="g-c-p">React</p>
                             </div>
                         </div>
 
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={JAVASCRIPT}/>
+                                <img className="g-c-img" alt="javascript icon" src={JAVASCRIPT} />
                                 <p className="g-c-p">JavaScript</p>
                             </div>
                         </div>
-       
+
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={HTML} />
+                                <img className="g-c-img" alt="html icon" src={HTML} />
                                 <p className="g-c-p">HTML</p>
                             </div>
                         </div>
-       
+
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={CSS}/>
+                                <img className="g-c-img" alt="css icon" src={CSS} />
                                 <p className="g-c-p">CSS</p>
                             </div>
                         </div>
-       
+
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={GIT} />
+                                <img className="g-c-img" alt="git icon" src={GIT} />
                                 <p className="g-c-p">GIT</p>
                             </div>
                         </div>
-       
-       
+
+
 
                     </div>
                 </div>
@@ -109,48 +109,48 @@ function About() {
                     <h1 className="g-c-h">Experienced in</h1>
                     <div className="g-c-flex">
 
-                    <div className="g-c-content">
+                        <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={TS}/>
+                                <img className="g-c-img" alt="typescript icon" src={TS} />
                                 <p className="g-c-p">TypeScript</p>
                             </div>
                         </div>
-       
+
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={NEXT} />
+                                <img className="g-c-img" alt="nextjs icon" src={NEXT} />
                                 <p className="g-c-p">NextJS</p>
                             </div>
                         </div>
-       
+
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={NODEJS} />
+                                <img className="g-c-img" alt="nodejs icon" src={NODEJS} />
                                 <p className="g-c-p">NodeJS</p>
                             </div>
                         </div>
-       
+
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={JEST} />
+                                <img className="g-c-img" alt="jest icon" src={JEST} />
                                 <p className="g-c-p">Jest </p>
                             </div>
                         </div>
-       
+
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={JIRA} />
+                                <img className="g-c-img" alt="jira icon" src={JIRA} />
                                 <p className="g-c-p">JIRA</p>
                             </div>
                         </div>
-       
+
                         <div className="g-c-content">
                             <div>
-                                <img className="g-c-img" src={GITHUB}/>
+                                <img className="g-c-img" alt="github icon" src={GITHUB} />
                                 <p className="g-c-p">Github</p>
                             </div>
                         </div>
-       
+
                     </div>
                 </div>
 
