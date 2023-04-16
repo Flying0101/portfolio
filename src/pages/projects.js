@@ -13,7 +13,7 @@ import { FaGithub } from "react-icons/fa";
 import NavTwo from '../components/NavTwo';
 import '../css/Project.css';
 
-import Footer from '../components/Footer';
+import Footer from '../components/Footer.js';
 
 
 function Projects() {

@@ -3,7 +3,6 @@ import React from 'react';
 
 import Projects from './pages/projects';
 import Main from './pages/main';
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { RecoilRoot } from 'recoil';

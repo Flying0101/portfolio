@@ -34,8 +34,8 @@ function Navigation() {
                 <ul className="navBar">
 
                     <a href="#homeSection" id="n-l"><li className="links">HOME</li></a>
-                    <a href="#aboutSection" id="n-l"><li className="links">ABOUT</li></a>
-                    <a href="#portfolioSection" id="n-l"><li className="links">PORTFOLIO</li></a>
+                    <a href="#aboutSection" id="n-l"><li className="links">PROJECTS</li></a>
+                    <a href="#portfolioSection" id="n-l"><li className="links">TECHSTACK</li></a>
                 </ul>
 
             </nav>
@@ -44,8 +44,8 @@ function Navigation() {
             <nav className={navOpen ? "slide-in" : "slide-out"}>
                 <ul>
                     <a href="#homeSection" id="n-l"> <li onClick={() => closeMenu()} className="bLink">HOME</li></a>
-                    <a href="#aboutSection" id="n-l">  <li onClick={() => closeMenu()} className="bLink">ABOUT</li></a>
-                    <a href="#portfolioSection" id="n-l"> <li onClick={() => closeMenu()} className="bLink">PORTFOLIO</li></a>
+                    <a href="#aboutSection" id="n-l">  <li onClick={() => closeMenu()} className="bLink">PROJECTS</li></a>
+                    <a href="#portfolioSection" id="n-l"> <li onClick={() => closeMenu()} className="bLink">TECHSTACK</li></a>
                 </ul>
             </nav>
 
