@@ -30,7 +30,15 @@
     min-height: 300px;
     border-radius: 25px;
     font-family: sans-serif;
+    transition: all 0.5s ease;
 }
+
+
+.part:hover {
+    border: 4px solid rgba(11, 159, 196);
+    background: none;
+}
+
 
 .partTwo {
     position: relative;
@@ -81,7 +89,6 @@
 }
 
 .projectPic:hover {
-    border-left: 3px solid rgba(11, 159, 196);
     cursor: pointer;
 }
 

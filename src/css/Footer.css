@@ -11,12 +11,12 @@
 
 .f-contact-container {
    position: relative;
-   top: -80px;
-   width: max(550px, 50%);
+   top: -20px;
+   max-width: 615px;
    margin: 0 auto;
    display: flex;
    padding: 1.3em;
-   background: rgba(255, 255, 255, 0.2);
+   background: none;
 }
 
 .f-c-div {
@@ -35,19 +35,6 @@
    font-size: 1rem;
 }
 
-.f-c-btn {
-   position: relative;
-   margin: auto 3% auto auto;
-   height: 100%;
-   min-width: 125px;
-   padding: 0.5em 1.6em;
-   border-radius: 20px;
-   background-color: rgba(0, 0, 0, 0);
-   color: rgb(72, 210, 235);
-   font-weight: bold;
-   font-size: clamp(1.1rem, 2vw, 1.3rem);
-
-}
 
 .f-links-container {
 
@@ -184,9 +171,6 @@
    }
 
 
-   .f-c-btn {
-      margin-top: 15px;
-   }
 
 
 }

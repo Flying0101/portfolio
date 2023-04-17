@@ -25,7 +25,6 @@ function Footer() {
 
                 </div>
 
-                <p className="f-c-btn">Contact info below</p>
             </div>
 
             <div className="f-links-container">
