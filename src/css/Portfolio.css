@@ -75,8 +75,10 @@
 .project-pic {
     width: 100%;
     max-height: 170px;
-    object-fit: cover;
-    object-position: top;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
 }
 
 #home-video {
