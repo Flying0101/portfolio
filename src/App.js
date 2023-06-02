@@ -1,12 +1,8 @@
 import React from 'react';
 import Main from './pages/main';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import { RecoilRoot } from 'recoil';
 function App() {
-
-
-
 
   return (
     <RecoilRoot>
