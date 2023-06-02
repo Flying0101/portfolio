@@ -113,45 +113,45 @@
 
 @-webkit-keyframes myanimation {
    0% {
-      color: rgb(86, 12, 182);
+      color: #fff;
    }
 
    25% {
-      color: rgb(170, 13, 255);
+      color: #a5d5e0;
    }
 
    50% {
-      color: rgb(121, 25, 177);
+      color: #72bacc;
    }
 
    75% {
-      color: rgb(206, 157, 218);
+      color: #68c8e0;
    }
 
    100% {
-      color: rgb(121, 19, 204);
+      color: #0b9fc4;
    }
 }
 
 @keyframes myanimation {
    0% {
-      color: rgb(86, 12, 182);
+      color: #fff;
    }
 
    25% {
-      color: rgb(170, 13, 255);
+      color: #a5d5e0;
    }
 
    50% {
-      color: rgb(121, 25, 177);
+      color: #72bacc;
    }
 
    75% {
-      color: rgb(206, 157, 218);
+      color: #68c8e0;
    }
 
    100% {
-      color: rgb(121, 19, 204);
+      color: #0b9fc4;
    }
 }
 
