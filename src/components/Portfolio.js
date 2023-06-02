@@ -1,18 +1,13 @@
 import React from 'react';
-
 import '../css/Portfolio.css';
-
 import { Link } from "react-router-dom";
 import Lottie from "lottie-react";
-
 import webbapp from '../lotties/webb-builder.json';
-
-
 import taskpic from '../images/todo.png';
 import chattpic from '../images/chattapp.png';
-
-
 import T3video from '../videos/watch-intro.mp4'
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function Portfolio() {
 
@@ -21,7 +16,9 @@ function Portfolio() {
         textDecoration: 'none'
 
     };
-
+    const [ref, inView] = useInView({
+        triggerOnce: false,
+    });
 
     //some of this css is in the about.css file due to the grid stylings.
     return (
@@ -30,8 +27,15 @@ function Portfolio() {
 
             <div className="PortFolio" >
                 <div id="portfolioSection"></div>
+                <motion.p
+                    ref={ref}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: inView ? 1 : 0 }}
+                    transition={{ duration: 0.9 }}
+                >
+                    <h4 className="portH2" >PROJECTS</h4>
 
-                <h4 className="portH2" >PROJECTS</h4>
+                </motion.p>
                 <Lottie animationData={webbapp} id="port-animation" />
 
                 <div className="gridContainerTwo">
