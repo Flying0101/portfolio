@@ -21,7 +21,7 @@ function Home() {
       <div id="homeSection"></div>
       <div className="home-wrap">
         <Lottie animationData={space} id="home-animation" />
-        <h1 className="startHeader">Hi, <br /> <span className="grey-text">Welcome to my</span> </h1>
+        <h1 className="startHeader">Hello, <br /> <span className="grey-text">Welcome to my</span> </h1>
 
         <div className="launch">
           <TypeWriter

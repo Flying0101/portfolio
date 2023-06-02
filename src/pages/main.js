@@ -6,6 +6,7 @@ import About from '../components/About';
 import Portfolio from '../components/Portfolio';
 import Footer from '../components/Footer.js';
 
+import '.././css/Global.css'
 function Main() {
 
 

@@ -43,7 +43,7 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    border: 0.1rem solid white;
+    border: 0.1rem solid rgb(72, 210, 235);
     background: rgb(20, 20, 20);
     color: white;
     padding: 7px 25px;
