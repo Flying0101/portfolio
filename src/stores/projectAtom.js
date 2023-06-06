@@ -1,7 +1,6 @@
 import { atom } from 'recoil';
 
 import TA from '../images/todoapp.png';
-import CA from '../images/chattapp.png';
 import WE from '../images/tt.png';
 import MD from '../images/md.png';
 import MDMAIN from '../images/mdm.png';
