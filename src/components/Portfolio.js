@@ -60,7 +60,7 @@ function Portfolio() {
                         {projects.map((project) => {
                             return (
                                 <SwiperSlide>
-                                    <img src={project.img} className="sw-img" />
+                                    <img src={project.img} className="sw-img" alt="application display" />
                                     <div className="sw-content">
                                         <h2 className="sw-h2">{project.name}</h2>
                                         <p className="sw-p">{project.information}</p>
