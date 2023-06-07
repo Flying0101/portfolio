@@ -24,9 +24,10 @@
 
 }
 
-.grey-text{ 
+.grey-text {
     color: rgba(255, 255, 255, 0.6);
 }
+
 .launch {
     color: rgb(72, 210, 235);
     padding: 0.5rem;

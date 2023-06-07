@@ -31,40 +31,47 @@ function Portfolio() {
                 >
                     <h4 className="portH2" >PROJECTS</h4>
                 </motion.p>
-                <Lottie animationData={webbapp} id="port-animation" />
-                <div className="swiper-carousel">
-                    <Swiper
-                        slidesPerView={1}
-                        spaceBetween={10}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        breakpoints={{
-                            640: {
-                                slidesPerView: 2,
-                                spaceBetween: 20,
-                            },
-                        }}
-                        modules={[Pagination]}
-                        className="mySwiper"
-                    >
-                        {projects.map((project) => {
-                            return (
-                                <SwiperSlide>
-                                    <img src={project.img} className="sw-img" alt="application display" />
-                                    <div className="sw-content">
-                                        <h2 className="sw-h2">{project.name}</h2>
-                                        <p className="sw-p">{project.information}</p>
-                                        <div className="sw-div">
-                                            <button id="sw-btns" className="sw-test" onClick={() => window.open(project.netapp)}><FaLaptopCode className="sw-icon" />Test</button>
-                                            {project.link ? (<button id="sw-btns" className="sw-github" onClick={() => window.open(project.link)}><FaGithub className="sw-icon" /> Source</button>) : ('')}
+                <motion.p
+                    ref={ref}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: inView ? 1 : 0 }}
+                    transition={{ duration: 1.3 }}
+                >
+                    <Lottie animationData={webbapp} id="port-animation" />
+                    <div className="swiper-carousel">
+                        <Swiper
+                            slidesPerView={1}
+                            spaceBetween={10}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            breakpoints={{
+                                640: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 20,
+                                },
+                            }}
+                            modules={[Pagination]}
+                            className="mySwiper"
+                        >
+                            {projects.map((project) => {
+                                return (
+                                    <SwiperSlide>
+                                        <img src={project.img} className="sw-img" alt="application display" />
+                                        <div className="sw-content">
+                                            <h2 className="sw-h2">{project.name}</h2>
+                                            <p className="sw-p">{project.information}</p>
+                                            <div className="sw-div">
+                                                <button id="sw-btns" className="sw-test" onClick={() => window.open(project.netapp)}><FaLaptopCode className="sw-icon" />Test</button>
+                                                {project.link ? (<button id="sw-btns" className="sw-github" onClick={() => window.open(project.link)}><FaGithub className="sw-icon" /> Source</button>) : ('')}
+                                            </div>
                                         </div>
-                                    </div>
-                                </SwiperSlide>
-                            )
-                        })}
-                    </Swiper>
-                </div>
+                                    </SwiperSlide>
+                                )
+                            })}
+                        </Swiper>
+                    </div>
+                </motion.p>
             </div>
         </section>
     );
