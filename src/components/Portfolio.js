@@ -14,21 +14,13 @@ import { FaGithub, FaLaptopCode } from 'react-icons/fa';
 
 
 function Portfolio() {
-
     const projects = useRecoilValue(projectList);
-
-    console.log(projects)
     const [ref, inView] = useInView({
         triggerOnce: false,
     });
-
-
-
     //some of this css is in the about.css file due to the grid stylings.
     return (
-
         <section className="portfolio-section" >
-
             <div className="PortFolio" >
                 <div id="portfolioSection"></div>
                 <motion.p
@@ -38,7 +30,6 @@ function Portfolio() {
                     transition={{ duration: 0.9 }}
                 >
                     <h4 className="portH2" >PROJECTS</h4>
-
                 </motion.p>
                 <Lottie animationData={webbapp} id="port-animation" />
                 <div className="swiper-carousel">
@@ -65,21 +56,17 @@ function Portfolio() {
                                         <h2 className="sw-h2">{project.name}</h2>
                                         <p className="sw-p">{project.information}</p>
                                         <div className="sw-div">
-                                            <button className="sw-test" onClick={() => window.open(project.netapp)}><FaLaptopCode className="sw-icon" />Test</button>
-                                            {project.link ? (<button className="sw-github" onClick={() => window.open(project.link)}><FaGithub className="sw-icon" /> Source</button>) : ('')}
+                                            <button id="sw-btns" className="sw-test" onClick={() => window.open(project.netapp)}><FaLaptopCode className="sw-icon" />Test</button>
+                                            {project.link ? (<button id="sw-btns" className="sw-github" onClick={() => window.open(project.link)}><FaGithub className="sw-icon" /> Source</button>) : ('')}
                                         </div>
                                     </div>
-
                                 </SwiperSlide>
-
                             )
                         })}
                     </Swiper>
                 </div>
-
             </div>
         </section>
     );
 }
-
 export default Portfolio;

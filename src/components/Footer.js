@@ -43,7 +43,7 @@ function Footer() {
                 <div className="f-l-div">
                     <h3 className="f-l-header">Tel-nr</h3>
                     <ul className="f-l-ul">
-                        <li className="f-l-lis"><FaPhone className="icons" /> +46(0)739883407</li>
+                        <li className="f-l-lis"><FaPhone className="icons" /> +46(0) 739883407</li>
                     </ul>
                 </div>
             </div>

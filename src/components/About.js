@@ -166,7 +166,7 @@ function About() {
 
                                 <div className="g-c-content">
                                     <div>
-                                        <img className="g-c-img" alt="github icon" src={GITHUB} />
+                                        <img className="g-c-img" alt="github icon" src={GITHUB} id="g-w"/>
                                         <p className="g-c-p">Github</p>
                                     </div>
                                 </div>

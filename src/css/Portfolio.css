@@ -20,7 +20,7 @@
 
 .swiper-carousel {
     min-height: 300px;
-    padding: 10px;
+    padding: 10px 25px;
 
 }
 
@@ -101,6 +101,8 @@
     background-color: rgb(11, 159, 196);
     color: white;
     border: none;
+    transition: all ease 0.5s;
+
 }
 
 .sw-github {
@@ -112,9 +114,16 @@
     background-color: rgb(11, 159, 196);
     color: white;
     border: none;
+    transition: all ease 0.5s;
 }
 
 .sw-icon {
     font-size: 1.3rem;
     margin-right: 2px;
+}
+
+#sw-btns:hover{
+    cursor: pointer;
+    background-color: white;
+    color:  rgb(11, 159, 196);
 }
