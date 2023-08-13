@@ -15,7 +15,7 @@ export const projectList = atom({
   
   { id: '3', name: 'Might & Delight', information: "Developed using NextJs/Typescript with DatoCMS, Our goal was to make them a new and faster main site. We build components and auto generate their types with codegen and GraphQL, we can later let the user change the data with help of blocks and models in datoCMS", netapp: 'https://www.mightanddelight.com/', img: MDMAIN },
   
-  { id: '4', name: 'Agency Site', information: "I have always been driven to try more, since i started my frontend journey i started helping companies with web solutions, everything from reconstructing projects to seeing over their software architecture and with that in mind i created my own consultant website (in progress)", link: 'https://github.com/Flying0101/seo-website', netapp: 'https://starlit-churros-2ad67c.netlify.app/', img: WEB },
+  { id: '4', name: 'Agency Site', information: "I have always been driven to try more, since i started my frontend journey i started helping companies with web solutions, everything from reconstructing projects to seeing over their software architecture and with that in mind im creating my own consultant website (in progress)", link: 'https://github.com/Flying0101/seo-website', netapp: 'https://sm-web1.netlify.app/', img: WEB },
   
   { id: '5',name: 'Check-list', information: "Goal with this project was to make an todo app as simple as possible with a clean and nice responsive design and handle the data with Recoil. I learned more about css and arrays with this project, a good interesting project overall. (One of my first school projects)", img: TA, link: 'https://github.com/Flying0101/check-todo/tree/main/src', netapp: 'https://check-list-edition.netlify.app' }],
 });
